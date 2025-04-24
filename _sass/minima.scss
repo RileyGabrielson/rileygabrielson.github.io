@@ -155,25 +155,50 @@ a {
       margin-top: 0.25rem;
     }
   }
+}
 
-  img {
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    margin: 0 0.5rem;
-    border-radius: 50%;
-    object-fit: cover;
-    vertical-align: middle;
-  }
+// About page specific styling
+.about {
+  .post-content {
+    text-align: center;
+    
+    img {
+      display: inline-block;
+      width: 200px;
+      height: 200px;
+      margin: 0 0.5rem;
+      border-radius: 50%;
+      object-fit: cover;
+      vertical-align: middle;
+    }
 
-  // Center the images
-  img:first-of-type {
-    margin-left: auto;
-  }
+    // Center the images
+    img:first-of-type {
+      margin-left: auto;
+    }
 
-  img:last-of-type {
-    margin-right: auto;
+    img:last-of-type {
+      margin-right: auto;
+    }
   }
+}
+
+.about-image {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.about-image:first-of-type {
+  margin-left: auto;
+}
+
+.about-image:last-of-type {
+  margin-right: auto;
 }
 
 .highlight {

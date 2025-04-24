@@ -7,19 +7,21 @@ categories: improvement engineering
 
 Recently a computer science student asked me what he should do in order to improve his skills. There are a tons of technologies to research, leet code to grind, patterns to memorize, and todo apps to build. Thinking about this question has helped me to clarify a principle that has been critical to my growth:
 
-> *You will be better at your craft if you enjoy it*
+> You will be better at your craft if you enjoy it
 
 Let's clarify a couple things about that statement. I'm not saying that hard work and doesn't have it's place. All you "rise and grinders" can put your pitchforks and dumbells away. Learning new skills can be uncomfortable, stretching, and frustrating.
 
-However, if programming is **only** uncomfortable, then you are not going to improve for long, and you will be miserable the whole time.
+However, if programming is **only** uncomfortable, then you are not going to improve for long, and you will be miserable. That's a lame strategy.
 
-Enjoying engineering will help you to do some remarkable things. You will learn faster, dive deeper, and in my experience work longer. I'm writing this blog post at 3 in the morning, because I couldn't sleep and I am excited about writing down my thoughts!
+Enjoying engineering will help you to do some remarkable things. You will learn faster, dive deeper, and in my experience work longer. As an example of wild things you do while having fun, I'm writing this blog post at 3 in the morning. I couldn't sleep and I was excited about my little website here :)
 
 ## I have stuff to do
 
-The trouble is that you probably have expectations on your time, either from your job, your classes, or your wallet. Sometimes our work gives us some flexibility to work on things that are fun, but that isn't always the case. I have found that I can not rely on my job to consistently teach me how to enjoy my craft.
+The trouble is that learning to enjoy programming takes consistent time. You probably have expectations on your time, either from your job, your classes, or your wallet. Sometimes our work gives us some flexibility to work on things that are fun, but that isn't always the case. I have found that I can not rely on my job to consistently teach me how to enjoy my craft.
 
 So that leaves us with time outside of work. But you are assuredly busy with the billion other things that make up your life, and fitting in time for more "work" is only going to burn you out more... Quite the conundrum.
+
+![beatings-meme](/static/beatings_meme.jpg){: width="250" }
 
 ## Play on your own
 
@@ -36,10 +38,18 @@ Here are some ideas that have worked for me:
 
 ## Transitive Property
 
+![wonka fun](/static/fun_1_wonka.jpg)
+
 The exciting part of these fun, silly projects is that you will learn to love being an engineer, and your work will become way more enjoyable as a result. You will make connections that your peers won't, you will be more creative in your problem solving, and it will become a lot easier to view what you do as a craft rather than a job.
+
+**Find the fun** maybe a bit cliche, but go try it anyway. You deserve to be happy, and you'll be a better engineer because of it.
 
 ## Some Inspiration
 
-[Art of Code](https://www.youtube.com/watch?v=6avJHaC3C2U)
+[Art of Code](https://www.youtube.com/watch?v=6avJHaC3C2U) - One of the most enjoyable lectures on programming ever
 
-[John Cleese on Creativity](https://genius.com/John-cleese-lecture-on-creativity-annotated)
+[John Cleese on Creativity](https://genius.com/John-cleese-lecture-on-creativity-annotated) - This is the Monty Python guy, some really great principles in here
+
+This kitten is pretty inspiring :)
+
+![cat](/static/cat.jpg)

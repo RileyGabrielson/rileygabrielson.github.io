@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 menu: 'show'
+class: about
 ---
 
 Hi, I'm Riley! Some things about me:
@@ -13,7 +14,7 @@ Hi, I'm Riley! Some things about me:
 - I was a cheerleader in highschool, a racquetball player in college, and pickleball is my current obsession
 
 <div style="text-align: center;">
-  <img src="/static/alternate_profile.jpg" alt="Profile Picture">
-  <img src="/static/board_game_shot.jpg" alt="Company of Heroes Board Game">
-  <img src="/static/cheerleading_shot.jpg" alt="Cheerleading">
+  <img class="about-image" src="/static/alternate_profile.jpg" alt="Profile Picture">
+  <img class="about-image" src="/static/board_game_shot.jpg" alt="Company of Heroes Board Game">
+  <img class="about-image" src="/static/cheerleading_shot.jpg" alt="Cheerleading">
 </div>
