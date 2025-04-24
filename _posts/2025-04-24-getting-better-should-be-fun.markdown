@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting Better Should Be Fun"
 date:   2025-04-23 13:53:56 -0600
-categories: engineering
+categories:
 ---
 
 Recently a computer science student asked me what he should do in order to improve his skills. It occured to me that there are a tons of technologies to research, leet code to grind, patterns to memorize, and todo apps to build... Where to start? Thinking about this question has helped me to clarify a principle that has been critical to my growth:
