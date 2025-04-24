@@ -1,6 +1,8 @@
 ---
 layout: page
 permalink: /wedding/
+menu: 'hide'
+title: 'Wedding Tasks'
 ---
 
 ## Venue
@@ -64,7 +66,7 @@ permalink: /wedding/
 	- Savannah
 - Pick Dresses/Color for dresses
 - Bridal Shower (mom and Kate)
-- [x] Bachelorette Party (Kate and Priscilla) ✅ 2025-04-23
+- [x] ~~Bachelorette Party (Kate and Priscilla)~~
 - Boquette
 - Schedule Hair/Makeup for day of the wedding
 
@@ -92,7 +94,7 @@ permalink: /wedding/
 - Doctor for UTI medicine
 - Schedule hotel/place for the weekend
 
-## Green Card Application Stuff
+## Green Card Application
 
 - Gather the necessary forms
 - Gather the pictures
