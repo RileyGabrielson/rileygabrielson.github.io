@@ -90,7 +90,7 @@ permalink: /wedding/
 - Doctor for UTI medicine
 - Schedule hotel/place for the weekend
 
-## Green Card Application
+## Green Card Application Stuff
 
 - Gather the necessary forms
 - Gather the pictures
