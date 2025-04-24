@@ -233,6 +233,31 @@ a {
   }
 }
 
+// Decorative dividers
+.home {
+  position: relative;
+  padding: 2rem 0;
+  margin-top: 3rem;
+  
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, $border-color, transparent);
+  }
+  
+  &::before {
+    top: 0;
+  }
+  
+  &::after {
+    bottom: 0;
+  }
+}
+
 // Social links styling
 .social-links {
   display: flex;
@@ -248,10 +273,15 @@ a {
   justify-content: center;
   color: #ffffff;
   text-decoration: none;
-  transition: opacity 0.2s ease;
+  transition: color 0.2s ease;
   
-  &:hover {
-    opacity: 0.8;
+  &:visited {
+    color: $grey-color;
+  }
+
+  &:hover,
+  &:visited:hover {
+    color: $link-hover-color;
   }
 }
 
@@ -263,6 +293,13 @@ a {
 
 .svg-icon {
   width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.tcn-icon {
+  margin-left: -0.25rem;
+  width: 42px;
   height: 24px;
   fill: currentColor;
 }
