@@ -6,6 +6,7 @@ permalink: /wedding/
 ## Venue
 
 - Take a look at Mandy's place, decide layout
+    - Where is dance floor going to go?
 - Reserve Tables and Chairs
 - Book Food
 - Dance Floor
@@ -23,6 +24,7 @@ permalink: /wedding/
 - Sound System
 	- Playlist
 - Create book for people to sign
+- Cake
 	
 ## Temple
 
