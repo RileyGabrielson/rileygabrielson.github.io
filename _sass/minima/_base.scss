@@ -15,8 +15,8 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
-  background-color: $background-color;
+  color: var(--text-color);
+  background-color: var(--bg-color);
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit * 0.5;
+  margin-bottom: $spacing-unit / 2;
 }
 
 
@@ -95,6 +95,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
+  color: var(--text-color) !important;
 }
 
 
@@ -103,15 +104,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: var(--brand-color);
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: var(--grey-color);
   }
 
   &:hover {
-    color: $text-color;
+    color: var(--text-color);
     text-decoration: underline;
   }
 
@@ -129,9 +130,9 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit * 0.5;
+  color: var(--grey-color);
+  border-left: 4px solid var(--grey-color-light);
+  padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
   letter-spacing: -1px;
   font-style: italic;
@@ -212,14 +213,73 @@ pre {
     width: 16px;
     height: 16px;
     display: inline-block;
-    fill: #{$grey-color};
+    fill: var(--text-color) !important;
     padding-right: 5px;
     vertical-align: text-top;
+}
+
+.icon--tcn {
+    color: var(--text-color) !important;
+    display: inline-block;
+    padding-right: 5px;
+    vertical-align: text-top;
+
+    .tcn-icon {
+        width: 48px;
+        height: 20px;
+    }
+}
+
+.social-links {
+  a {
+    color: var(--text-color) !important;
+    text-decoration: none;
+    display: inline-block;
+
+    &:hover {
+      color: var(--brand-color) !important;
+      text-decoration: none;
+
+      .svg-icon {
+        fill: var(--brand-color) !important;
+      }
+
+      .icon--tcn {
+        color: var(--brand-color) !important;
+      }
+    }
+  }
 }
 
 .social-media-list {
   li + li {
     padding-top: 5px;
+  }
+
+  a {
+    color: var(--text-color) !important;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--brand-color) !important;
+      text-decoration: none;
+
+      .username {
+        text-decoration: underline;
+      }
+
+      .svg-icon {
+        fill: var(--brand-color) !important;
+      }
+
+      .icon--tcn {
+        color: var(--brand-color) !important;
+      }
+    }
+  }
+
+  .username {
+    color: var(--text-color) !important;
   }
 }
 

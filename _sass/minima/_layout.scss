@@ -2,12 +2,18 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  border-top: 5px solid var(--grey-color-dark);
+  border-bottom: 1px solid var(--grey-color-light);
   min-height: $spacing-unit * 1.865;
+  background-color: var(--bg-color) !important;
+  color: var(--text-color);
 
   // Positioning context for the mobile navigation icon
   position: relative;
+
+  .wrapper {
+    background-color: var(--bg-color);
+  }
 }
 
 .site-title {
@@ -20,13 +26,14 @@
 
   &,
   &:visited {
-    color: #ffffff;
+    color: var(--text-color) !important;
   }
 }
 
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
+  background-color: var(--bg-color);
 
   .nav-trigger {
       display: none;
@@ -37,7 +44,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: var(--text-color) !important;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -46,12 +53,59 @@
     }
   }
 
+  .trigger {
+    background-color: var(--bg-color);
+  }
+
+  .theme-toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: var(--brand-color);
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+
+    .moon-icon {
+      display: none;
+    }
+
+    .sun-icon {
+      display: block;
+    }
+  }
+
+  [data-theme="dark"] .theme-toggle {
+    .moon-icon {
+      display: block;
+    }
+
+    .sun-icon {
+      display: none;
+    }
+  }
+
   @include media-query($on-palm) {
     position: absolute;
     top: 9px;
     right: $spacing-unit * 0.5;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
+    background-color: var(--bg-color);
+    border: 1px solid var(--grey-color-light);
     border-radius: 5px;
     text-align: right;
 
@@ -74,7 +128,7 @@
       text-align: center;
 
       > svg {
-        fill: $grey-color-dark;
+        fill: var(--grey-color-dark);
       }
     }
 
@@ -86,12 +140,14 @@
     input:checked ~ .trigger {
       display: block;
       padding-bottom: 5px;
+      background-color: var(--bg-color);
     }
 
     .page-link {
       display: block;
       margin-left: 20px;
       padding: 5px 10px;
+      color: var(--text-color) !important;
 
       &:not(:last-child) {
         margin-right: 0;
@@ -106,32 +162,42 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  border-top: 1px solid var(--grey-color-light);
   padding: $spacing-unit 0;
+  background-color: var(--bg-color) !important;
+  color: var(--text-color);
+
+  .wrapper {
+    background-color: var(--bg-color);
+  }
 }
 
 .footer-heading {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit * 0.5;
+  color: var(--text-color);
 }
 
 .contact-list,
 .social-media-list {
   list-style: none;
   margin-left: 0;
+  color: var(--text-color);
 }
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: var(--grey-color);
   margin-left: -$spacing-unit * 0.5;
   @extend %clearfix;
+  background-color: var(--bg-color);
 }
 
 .footer-col {
   float: left;
   margin-bottom: $spacing-unit * 0.5;
   padding-left: $spacing-unit * 0.5;
+  background-color: var(--bg-color);
 }
 
 .footer-col-1 {
@@ -178,14 +244,17 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
+  background-color: var(--bg-color);
 }
 
 .page-heading {
   @include relative-font-size(2);
+  color: var(--text-color);
 }
 
 .post-list-heading {
   @include relative-font-size(1.75);
+  color: var(--text-color);
 }
 
 .post-list {
@@ -199,12 +268,13 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: $grey-color;
+  color: var(--grey-color);
 }
 
 .post-link {
   display: block;
   @include relative-font-size(1.5);
+  color: var(--text-color);
 }
 
 
@@ -220,6 +290,7 @@
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
+  color: var(--text-color) !important;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
@@ -228,28 +299,31 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
+  color: var(--text-color);
 
-  h2 {
-    @include relative-font-size(2);
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color) !important;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
 
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.75);
+  p {
+    margin-bottom: 1.5rem;
+  }
+
+  ul {
+    margin-bottom: 0;
+    
+    ul {
+      margin-bottom: 0;
     }
   }
 
-  h3 {
-    @include relative-font-size(1.625);
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.375);
-    }
-  }
-
-  h4 {
-    @include relative-font-size(1.25);
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.125);
+  li {
+    margin-bottom: 0.25rem;
+    
+    > ul {
+      margin-top: 0.25rem;
     }
   }
 }
