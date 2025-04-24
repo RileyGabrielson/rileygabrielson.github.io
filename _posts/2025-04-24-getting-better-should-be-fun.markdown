@@ -11,7 +11,7 @@ Recently a computer science student asked me what he should do in order to impro
 
 Let's clarify a couple things about that statement. I'm not saying that hard work doesn't have it's place. All you "rise and grinders" can put your pitchforks and dumbells away. Learning new skills can be uncomfortable, stretching, and frustrating.
 
-However, if programming is **only** uncomfortable and frustrating, then you are not going to improve for long, and you will be miserable. That's a lame strategy.
+However, if programming is **only** uncomfortable and frustrating, then you are not going to improve for long, and you will be miserable. That’s like plowing a field with a lawn chair — you can technically do it, but your harvest will probably suck.
 
 The best engineers I know are excited about what they do. The reason is that enjoying engineering will push you to do some remarkable things. You will learn faster, dive deeper, and in my experience work longer. As an example of wild things you do while having fun, I'm writing this blog post at 3 in the morning. I couldn't sleep and I was excited about my little website :)
 
