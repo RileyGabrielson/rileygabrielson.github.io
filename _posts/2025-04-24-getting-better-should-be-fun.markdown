@@ -5,17 +5,17 @@ date:   2025-04-23 13:53:56 -0600
 categories: improvement engineering
 ---
 
-Recently a computer science student asked me what he should do in order to improve his skills. There are a tons of technologies to research, leet code to grind, patterns to memorize, and todo apps to build. Thinking about this question has helped me to clarify a principle that has been critical to my growth:
+Recently a computer science student asked me what he should do in order to improve his skills. It occured to me that there are a tons of technologies to research, leet code to grind, patterns to memorize, and todo apps to build... Where to start? Thinking about this question has helped me to clarify a principle that has been critical to my growth:
 
 > You will be better at your craft if you enjoy it
 
 Let's clarify a couple things about that statement. I'm not saying that hard work and doesn't have it's place. All you "rise and grinders" can put your pitchforks and dumbells away. Learning new skills can be uncomfortable, stretching, and frustrating.
 
-However, if programming is **only** uncomfortable, then you are not going to improve for long, and you will be miserable. That's a lame strategy.
+However, if programming is **only** uncomfortable and frustrating, then you are not going to improve for long, and you will be miserable. That's a lame strategy.
 
-Enjoying engineering will help you to do some remarkable things. You will learn faster, dive deeper, and in my experience work longer. As an example of wild things you do while having fun, I'm writing this blog post at 3 in the morning. I couldn't sleep and I was excited about my little website here :)
+Enjoying engineering will help you to do some remarkable things. You will learn faster, dive deeper, and in my experience work longer. As an example of wild things you do while having fun, I'm writing this blog post at 3 in the morning. I couldn't sleep and I was excited about my little website :)
 
-## I have stuff to do
+## "I have stuff to do"
 
 The trouble is that learning to enjoy programming takes consistent time. You probably have expectations on your time, either from your job, your classes, or your wallet. Sometimes our work gives us some flexibility to work on things that are fun, but that isn't always the case. I have found that I can not rely on my job to consistently teach me how to enjoy my craft.
 
@@ -23,9 +23,9 @@ So that leaves us with time outside of work. But you are assuredly busy with the
 
 ![beatings-meme](/static/beatings_meme.jpg){: width="250" }
 
-## Play on your own
+## Play for its own sake
 
-The trick is to pick a free time project that is fun. The only criteria is that you should enjoy doing it. And as soon as it stops being fun? Abandon it! You probably learned some stuff, so throw away your guilt and go find something else that is fun to build.
+The trick is to pick a "free time" project that is fun. The only criteria is that you should enjoy doing it. And as soon as it stops being fun? Abandon it! You probably learned some stuff, so throw away your guilt and go find something else that is fun to build.
 
 Here are some ideas that have worked for me:
 
