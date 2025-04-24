@@ -33,6 +33,7 @@ Here are some ideas that have worked for me:
 - Find an open source project that you like and try contributing to the code base
 - Build a joke repository ([here](https://github.com/RileyGabrielson/the-identity) is one I made recently, it was a blast)
 - Make a personal website with markdown
+- Install Arch on an old computer, then drop "I use Arch btw" in random contexts
 - Learn vim keybindings (and then probably spend 6 months rewriting your neovim config)
 - Make a silly project as a present for a family member (I made a really terrible "Among Us" clone for my sister's birthday years ago, we still talk about it)
 
