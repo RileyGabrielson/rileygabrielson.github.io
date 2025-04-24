@@ -99,6 +99,10 @@ title: 'Wedding Tasks'
 - Gather the necessary forms
 - Gather the pictures
 - Doctor visit
-	- Vaccines?
+	- Vaccines
 - Fill out forms
 - Send and pay
+
+<div style="text-align: center; margin-top: 2rem;">
+  <img src="/static/alternate_profile.jpg" alt="Profile Picture" style="width: 200px; border-radius: 50%;">
+</div>

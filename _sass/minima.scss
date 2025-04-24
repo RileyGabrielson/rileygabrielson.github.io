@@ -73,6 +73,10 @@ a {
     color: $link-hover-color;
     text-decoration: underline;
   }
+
+  &:visited {
+    color: $grey-color;
+  }
 }
 
 .site-header {
@@ -93,17 +97,36 @@ a {
 }
 
 .post-list {
+  margin: 0;
+  list-style: none;
+
   > li {
     border-bottom: 1px solid $border-color;
+    padding: 0;
+    margin-bottom: 0.25rem;
   }
+}
+
+.post-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0;
+  line-height: 1.2;
 }
 
 .post-meta {
   color: lighten($text-color, 20%);
+  font-size: $small-font-size;
+  white-space: nowrap;
+  margin-left: 1rem;
+  line-height: 1.2;
 }
 
 .post-link {
   color: $text-color;
+  margin: 0;
+  line-height: 1.2;
 }
 
 .post-content {
@@ -118,7 +141,19 @@ a {
   }
 
   ul {
-    margin-bottom: 3rem;
+    margin-bottom: 0;
+    
+    ul {
+      margin-bottom: 0;
+    }
+  }
+
+  li {
+    margin-bottom: 0.25rem;
+    
+    > ul {
+      margin-top: 0.25rem;
+    }
   }
 
   img {
@@ -144,10 +179,34 @@ a {
 .highlight {
   background-color: $code-background-color;
   color: $code-text-color;
-}
+  @extend %vertical-rhythm;
 
-// Syntax highlighting
-.highlight {
+  .highlighter-rouge & {
+    background: $code-background-color;
+  }
+
+  pre {
+    background-color: $code-background-color;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin: 0;
+  }
+
+  pre, pre code {
+    background-color: $code-background-color !important;
+  }
+
+  .rouge-code {
+    background-color: $code-background-color !important;
+  }
+
+  .rouge-gutter {
+    background-color: darken($code-background-color, 5%) !important;
+    border-right: 1px solid $border-color;
+  }
+
   .c     { color: #6A9955; } // Comment
   .err   { color: #f85149; } // Error
   .k     { color: #569CD6; } // Keyword
@@ -265,7 +324,7 @@ a {
 // Decorative dividers
 .home {
   position: relative;
-  padding: 2rem 0;
+  padding: 3rem 0;
   margin-top: 3rem;
   
   &::before,
@@ -285,6 +344,14 @@ a {
   &::after {
     bottom: 0;
   }
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    margin-bottom: 2rem;
+  }
 }
 
 // Social links styling
@@ -292,7 +359,7 @@ a {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-top: -0.25rem;
+  margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
 
@@ -349,4 +416,24 @@ a {
   margin: 0 1.5rem 1rem 0;
   max-width: 200px;
   border-radius: 4px;
+}
+
+code {
+  background-color: $code-background-color;
+  color: $code-text-color;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 85%;
+  border: none;
+  box-shadow: none;
+}
+
+// Ensure inline code in links maintains proper contrast
+a code {
+  color: $link-color;
+  background-color: transparent;
+  
+  &:hover {
+    color: $link-hover-color;
+  }
 }
