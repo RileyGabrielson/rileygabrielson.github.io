@@ -109,6 +109,35 @@ a {
 .post-content {
   h1, h2, h3, h4, h5, h6 {
     color: $text-color;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+  }
+
+  ul {
+    margin-bottom: 3rem;
+  }
+
+  img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+  }
+
+  // Center the images
+  img:first-of-type {
+    margin-left: auto;
+  }
+
+  img:last-of-type {
+    margin-right: auto;
   }
 }
 
@@ -302,4 +331,22 @@ a {
   width: 42px;
   height: 24px;
   fill: currentColor;
+}
+
+.page-heading {
+  margin-bottom: 2rem;
+}
+
+.float-right {
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+  max-width: 200px;
+  border-radius: 4px;
+}
+
+.float-left {
+  float: left;
+  margin: 0 1.5rem 1rem 0;
+  max-width: 200px;
+  border-radius: 4px;
 }
