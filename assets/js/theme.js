@@ -1,12 +1,9 @@
 // Theme handling
 (function() {
-  console.log('Theme script loaded');
-  
   const themeToggle = document.getElementById('theme-toggle');
   const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
   
   if (!themeToggle) {
-    console.error('Theme toggle button not found!');
     return;
   }
   
@@ -21,7 +18,6 @@
 
   // Set theme
   function setTheme(theme) {
-    console.log('Setting theme to:', theme);
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme);
   }
@@ -31,7 +27,6 @@
 
   // Toggle theme on button click
   themeToggle.addEventListener('click', () => {
-    console.log('Theme toggle clicked');
     const currentTheme = document.documentElement.getAttribute('data-theme');
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
     setTheme(newTheme);

@@ -13,6 +13,9 @@
 
   .wrapper {
     background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
@@ -22,18 +25,14 @@
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left;
-
-  &,
-  &:visited {
-    color: var(--text-color) !important;
-  }
 }
 
 .site-nav {
-  float: right;
+  display: flex;
+  align-items: center;
   line-height: $base-line-height * $base-font-size * 2.25;
   background-color: var(--bg-color);
+  margin-left: auto;
 
   .nav-trigger {
       display: none;
@@ -55,52 +54,56 @@
 
   .trigger {
     background-color: var(--bg-color);
-  }
-
-  .theme-toggle {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    color: var(--text-color);
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 24px;
-    height: 24px;
-    margin-left: 20px;
-    transition: color 0.3s ease;
+  }
+}
 
-    &:hover {
-      color: var(--brand-color);
-    }
+.theme-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+  transition: color 0.3s ease;
 
-    svg {
-      width: 20px;
-      height: 20px;
-      fill: currentColor;
-    }
-
-    .moon-icon {
-      display: none;
-    }
-
-    .sun-icon {
-      display: block;
-    }
+  &:hover {
+    color: var(--brand-color);
   }
 
-  [data-theme="dark"] .theme-toggle {
-    .moon-icon {
-      display: block;
-    }
-
-    .sun-icon {
-      display: none;
-    }
+  svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
   }
 
-  @include media-query($on-palm) {
+  .moon-icon {
+    display: none;
+  }
+
+  .sun-icon {
+    display: block;
+  }
+}
+
+[data-theme="dark"] .theme-toggle {
+  .moon-icon {
+    display: block;
+  }
+
+  .sun-icon {
+    display: none;
+  }
+}
+
+@include media-query($on-palm) {
+  .site-nav {
     position: absolute;
     top: 9px;
     right: $spacing-unit * 0.5;
@@ -268,7 +271,7 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: var(--grey-color);
+  color: var(--text-color);
 }
 
 .post-link {

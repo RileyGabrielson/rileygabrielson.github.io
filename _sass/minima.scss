@@ -116,7 +116,7 @@ a {
 }
 
 .post-meta {
-  color: lighten($text-color, 20%);
+  color: var(--text-color);
   font-size: $small-font-size;
   white-space: nowrap;
   margin-left: 1rem;
