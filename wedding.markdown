@@ -41,12 +41,12 @@ title: 'Wedding Tasks'
 ## Riley Specific
 
 - Buy a suit
-- Choose/Ask Groomsmen
-	- Sam
-	- Aaron
-	- Zach
-	- Henrique
-	- Brandon
+- [x] ~~Choose/Ask Groomsmen~~
+	- [x] ~~Sam~~
+	- [x] ~~Aaron~~
+	- [x] ~~Zach~~
+	- [x] ~~Henrique~~
+	- [x] ~~Brandon~~
 - Buy Ties
 - Bachelor Party
 - boutonnieres

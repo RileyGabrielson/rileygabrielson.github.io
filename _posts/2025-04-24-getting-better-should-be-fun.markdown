@@ -9,7 +9,7 @@ Recently a computer science student asked me what he should do in order to impro
 
 > You will be better at your craft if you enjoy it
 
-Let's clarify a couple things about that statement. I'm not saying that hard work doesn't have it's place. All you "rise and grinders" can put your pitchforks and dumbells away. Learning new skills can be uncomfortable, stretching, and frustrating.
+Let's clarify a couple things about that statement. I'm not saying that hard work doesn't have it's place. All you "rise and grinders" can put your pitchforks and dumbbells away. Learning new skills can be uncomfortable, stretching, and frustrating.
 
 However, if programming is **only** uncomfortable and frustrating, then you are not going to improve for long, and you will be miserable. That’s like plowing a field with a lawn chair — you can technically do it, but your harvest will probably suck.
 
@@ -42,7 +42,7 @@ Here are some ideas that have worked for me:
 
 The exciting part of these fun, silly projects is that you will learn to love being an engineer, and your work will become way more enjoyable as a result. You will make connections that your peers won't, you will be more creative in your problem solving, and it will become a lot easier to view what you do as a craft rather than a job.
 
-**Find the fun** maybe a bit cliche, but go try it anyway. You deserve to be happy, and you'll be a better engineer because of it.
+**Find the fun** may be a bit cliche, but go try it anyway. You deserve to be happy, and you'll be a better engineer because of it.
 
 ## Some Inspiration
 
