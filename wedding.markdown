@@ -49,9 +49,9 @@ title: 'Wedding Tasks'
 	- [x] ~~Zach~~
 	- [x] ~~Henrique~~
 	- [x] ~~Brandon~~
- - [x] ~~Hunter~~
- - [x] ~~Justus~~
- - [x] ~~Brecken~~
+	- [x] ~~Hunter~~
+	- [x] ~~Justus~~
+	- [x] ~~Brecken~~
 - Buy Black Ties
 - Bachelor Party
 - boutonnieres
