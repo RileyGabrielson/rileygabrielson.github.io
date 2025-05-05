@@ -27,6 +27,7 @@ title: 'Wedding Tasks'
 	- Playlist
 - Create book for people to sign
 - Cake
+- First Dance Choreography
 	
 ## Temple
 
