@@ -17,7 +17,9 @@ In the spirit of nostalgia, I decided to remake one of those programs.
 
 ## The Language
 
-My dad set me up with `KiXtart`, a scripting language for Windows. It was created in 1991, and the idea of the language was to create logon scripts, hence the name that almost reads as "kick start". It is listed on their website as "Careware", and eloquently they ask that if you enjoy using the language that you donate to charity.
+<img src="/static/kixtart-logo.png" style="width:450px" />
+
+My dad set me up with `KiXtart`, a scripting language for Windows. It was created in 1991, and the idea of the language was to create logon scripts, hence the name that almost reads as "kick start". It is listed on their website as "Careware", and they ask that if you enjoy using the language that you donate to charity.
 
 > Rather than commercializing KiXtart, I would like to turn its value into something truly positive. Specifically, I would like to use its value to help people who absolutely need and deserve our support.
 >
@@ -69,11 +71,11 @@ Here is how it looks:
 
 ## The Experience
 
-It was surreal to be back in that original text file, writing a silly game to show people. It seems that 11 year old me and today me are both adept at writing dumpster fires in obscure scripting languages :)
+It was surreal to be back in that original text file, writing a silly game to show people. Those ugly goto statements have been rattling around in my brain for a long time, and writing them down again was strangely cathartic! It seems that 11 year old me and today me are both adept at writing dumpster fires in obscure scripting languages :)
 
-Recreating this program taught me something important: I have always liked building things. There's still that same thrill when you get something working, that same frustration when it doesn't, and that same satisfaction when you finally figure it out. The tools have evolved, but the fundamental experience of creating something from nothing is still... magical.
+Recreating this program taught me something important: I have always liked building things. There's still that same thrill when you get something working, that same frustration when it doesn't, and that same satisfaction when you finally figure it out. The tools have evolved, but the fundamental experience of creating something from nothing is still... magical. The satisfaction of seeing your creation working for the first time has to be a thread that ties every software engineer together.
 
-How did your programming journey start?
+How did your programming journey start? It might be illuminating to go back to your roots, if only to show you how far you have come.
 
 ## Additional Resources
 
