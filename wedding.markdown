@@ -10,7 +10,8 @@ title: 'Wedding Tasks'
 - Take a look at Mandy's place, decide layout
     - Where is dance floor going to go?
 - Reserve Tables and Chairs
-- Book Food
+- [x] ~~Decide Food (Sams Club)~~
+- Book food (two weeks in advance)
 - Dance Floor
 - Table Decorations 
 	- Center pieces
@@ -48,7 +49,10 @@ title: 'Wedding Tasks'
 	- [x] ~~Zach~~
 	- [x] ~~Henrique~~
 	- [x] ~~Brandon~~
-- Buy Ties
+ - [x] ~~Hunter~~
+ - [x] ~~Justus~~
+ - [x] ~~Brecken~~
+- Buy Black Ties
 - Bachelor Party
 - boutonnieres
 
